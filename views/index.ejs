@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo_image/image_only.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/app.css">
+    <title>IPOS</title>
+</head>
+<body>
+    <div class="row">
+     <div class="col-md-2">
+        <nav class="navigation">
+            <div>
+               <a href="#" class="logo_link mb-3"><img src="/logo_image/ipos-logo.png" class="logo"></a>
+               <div class="parentBox">
+               <div class="nav_boxes active">
+                   <div class="box_content">
+                       <a href="#"><i class="fas fa-home"></i></a>
+                       <p>Home</p>
+                   </div>
+               </div>
+               <div class="nav_boxes">
+                   <div class="box_content">
+                       <a href="#"><i class="fas fa-tachometer-alt"></i></a>
+                       <p>Dashboard</p>
+                   </div>
+               </div>
+               <div class="nav_boxes">
+                   <div class="box_content">
+                       <a href="#"><i class="fas fa-scroll"></i></a>
+                       <p>Reports</p>
+                   </div>
+               </div>
+               <div class="nav_boxes">
+                   <div class="box_content">
+                       <a href="#"><i class="fas fa-boxes"></i></a>
+                       <p>Inventory</p>
+                   </div>
+               </div>
+               </div>
+            </div>
+            <div class="nav_boxes">
+               <div class="box_content">
+                   <a href="#"><i class="fas fa-sign-out-alt"></i></a>
+                   <a href="/dashboard/logout"><p>Logout</p></a>
+               </div>
+            </div>
+           </nav>
+     </div>
+     <div class="col-md-6">
+        <div class="search_items">
+            <p class="menu_heading">Menu</p>
+            <div class="search_box">
+            <form class="form">
+              <input type="text" placeholder="search item" id="item">
+            </form>
+            </div>
+        </div>
+        <div class="item-icons">
+           <div class="icons-div icons-active">
+               <div class="icons">
+                <i class="fas fa-mug-hot"></i>
+               </div>
+               <p>Hot</p>
+           </div>
+           <div class="icons-div">
+            <div class="icons">
+                <i class="fas fa-wine-bottle"></i>
+            </div>
+            <p>Soft Drinks</p>
+           </div>
+           <div class="icons-div">
+            <div class="icons">
+                <i class="fas fa-cookie-bite"></i>
+            </div>
+            <p>Snacks</p>
+           </div>
+           <div class="icons-div">
+            <div class="icons">
+                <i class="fas fa-utensils"></i>
+            </div>
+            <p>Food</p>
+           </div>
+           <div class="icons-div">
+            <div class="icons">
+                <i class="fas fa-drumstick-bite"></i>
+            </div>
+            <p>Chicken</p>
+        </div>
+        <div class="icons-div">
+            <div class="icons">
+                <i class="fas fa-bread-slice"></i>
+            </div>
+            <p>Pastries</p>
+        </div>
+        </div>
+        <div class="menu_gallery">
+            <div class="heading_menu">
+                 <p class="menu_header">Order Menu</p>
+                 <div class="sort">
+                    <label for="products">Sort</label>
+                    <select name="products" id="products">
+                      <option value="popular">Popular</option>
+                      <option value="new">New</option>
+                      <option value="offers">Offers</option>
+                    </select>
+                 </div>
+            </div>
+            <div class="gallery">
+              <div class="col_one columns">
+                <div class="gallery_items">
+                    <div class="img_div">
+                      
+                    </div>
+                    <p>Chapo</p>
+                </div>
+                <div class="gallery_items">
+                    <div class="img_div img_two">
+                      
+                    </div>
+                    <p>Fries</p>
+                </div>
+                <div class="gallery_items">
+                    <div class="img_div img_three">
+                      
+                    </div>
+                    <p>Chapo Ndengu</p>
+                </div>
+                <div class="gallery_items">
+                    <div class="img_div img_three_soda">
+                      
+                    </div>
+                    <p>Soda</p>
+                </div>
+              </div>
+              <div class="col_two columns">
+                <div class="gallery_items">
+                    <div class="img_div img_three_beans">
+                      
+                    </div>
+                    <p>Chapo beans</p>
+                </div>
+                <div class="gallery_items">
+                    <div class="img_div img_five">
+                      
+                    </div>
+                    <p>Tea</p>
+                </div>
+                <div class="gallery_items">
+                    <div class="img_div img_six">
+                      
+                    </div>
+                    <p>Chicken</p>
+                </div>
+                <div class="gallery_items">
+                    <div class="img_div img_seven">
+                      
+                    </div>
+                    <p>Sausage</p>
+                </div>
+              </div>
+            </div>
+        </div>
+     </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
